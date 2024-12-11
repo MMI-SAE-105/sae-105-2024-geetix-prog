@@ -1,0 +1,9 @@
+.btn{
+    font-family: var(--header3);
+    font-size: var(--h3);
+    color: var(--b);
+    background-color: var(--texte);
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+}

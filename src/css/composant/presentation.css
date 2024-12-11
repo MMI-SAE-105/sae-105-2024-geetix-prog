@@ -7,11 +7,11 @@
 }
 
 
-.title {
+.pres__title {
     position: relative;
 }
 
-.title{
+.pres__title{
     text-align: center;
 }
 
@@ -53,6 +53,7 @@
     background-color: var(--v);
     padding: 8px 12px 8px 12px;
     border-radius: 20px;
+    margin-top: -30px;
 }
 
 .pres__cercle{
@@ -60,4 +61,8 @@
     right: 0;
     top: 515px;
     z-index: 0;
+}
+
+.pres__item{
+    padding-bottom: 30px;
 }
