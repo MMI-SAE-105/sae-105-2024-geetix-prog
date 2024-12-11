@@ -1,0 +1,61 @@
+.pres{
+    margin-top: 40px;
+    padding-top: 50px;
+    border-radius: 30px;
+    height: 450px;
+    background: var(--j) url(../../../assets/icons/line1.svg) no-repeat left top;
+}
+
+
+.title {
+    position: relative;
+}
+
+.title{
+    text-align: center;
+}
+
+.pres__title::after{
+    content: "";
+    background-color: var(--v);
+    height: 10px;
+    width: 200px;
+    display: block;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.pres__line{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.texte{
+    font-family: var(--body2);
+    color: var(--footer);
+    font-size: var(--b1-b2);
+    margin: 0px 20px 50px 35px;
+    padding-top: 10px;
+}
+
+.para__pres{
+    padding-bottom: 10px;
+}
+
+.link__pres{
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--body2);
+    color: var(--v);
+    font-size: var(--b1-b2);
+    float: right;
+    margin-right: 30px;
+}
+
+.pres__cercle{
+    position: absolute;
+    right: 0;
+    top: 515px;
+    z-index: 0;
+}
