@@ -1,3 +1,18 @@
+.menu {
+  visibility: hidden;
+  display: flex;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--b);
+  color: var(--b);
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--space);
+  transform: translateX(100vw);
+  transition: all 0.3s ease-in-out;
+}
+
 .menu-btn {
   position: relative;
   width: 30px;
@@ -65,5 +80,9 @@
 }
 
 .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
-  opacity: 0;
+  opacity: 0%;
+}
+
+.menu[aria-expanded="false"] {
+  visibility: visible;
 }

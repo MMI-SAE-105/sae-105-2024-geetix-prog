@@ -3,3 +3,13 @@ h1{
     font-family: var(--header1);
     font-size: var(--h1-h2);
 }
+
+.header {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: var(--space2x) var(--space3x);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
