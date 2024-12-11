@@ -1,4 +1,5 @@
 body{
     font-family: var(--body3);
     color: var(--footer);
+    background-color: var(--b);
 }
