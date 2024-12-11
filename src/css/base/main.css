@@ -16,3 +16,9 @@ h2{
     font-size: var(--h1-h2);
 }
 
+.go_up{
+    margin-left: 15px;
+    position: fixed;
+    top: 65%;
+    z-index: 1;
+}

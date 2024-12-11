@@ -1,0 +1,69 @@
+.prog{
+    margin-top: -50px;
+    border-radius: 30px;
+    height: 1000px;
+    background-color: var(--mc);
+}
+
+.prog__title{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.prog__title::after{
+    content: "";
+    background-color: var(--bc);
+    height: 12px;
+    width: 200px;
+    display: block;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.prog__card{
+    display: relative;
+    text-align: center;
+    background-color: var(--texte);
+    margin-bottom: 100px;
+}
+
+.link__card{
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--body2);
+    color: var(--bc);
+    font-size: var(--b1-b2);
+}
+
+.para__card{
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--body2);
+    color: var(--b);
+}
+
+.title__card{
+    font-family: var(--header2);
+    color: var(--bc);
+    font-size: var(--h1-h2);
+}
+
+.strage__form{
+    margin-top: -50px;
+    position: absolute;
+    right: 0;
+}
+
+.link__prog{
+    position: absolute;
+    text-decoration: none;
+    font-family: var(--body2);
+    color: var(--b);
+    font-size: var(--b1-b2);
+    margin-left: 30px;
+    margin-top: 60px;
+    background-color: var(--texte);
+    border-radius: 20px;
+    padding: 8px 12px 8px 12px;
+}

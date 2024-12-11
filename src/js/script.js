@@ -14,3 +14,14 @@ if (toggle && nav) {
     page.classList.toggle("noscroll", isClosed);
   });
 }
+// Empêcher le défilement de la page lorsque le menu est ouvert
+if (toggle && nav) {
+  toggle.addEventListener("click", () => {
+    const isOpen = toggle.ariaExpanded === "true";
+    if (isOpen) {
+      page.style.overflow = "hidden";
+    } else {
+      page.style.overflow = "";
+    }
+  });
+}

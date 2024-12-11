@@ -3,7 +3,7 @@
   display: flex;
   position: fixed;
   inset: 0;
-  z-index: 1;
+  z-index: 2;
   background-color: var(--j);
   color: var(--j);
   flex-direction: column;

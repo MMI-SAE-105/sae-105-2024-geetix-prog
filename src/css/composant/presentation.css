@@ -18,7 +18,7 @@
 .pres__title::after{
     content: "";
     background-color: var(--v);
-    height: 10px;
+    height: 12px;
     width: 200px;
     display: block;
     border-radius: 30px;
@@ -44,13 +44,15 @@
 }
 
 .link__pres{
-    text-align: center;
     text-decoration: none;
     font-family: var(--body2);
-    color: var(--v);
+    color: var(--footer);
     font-size: var(--b1-b2);
     float: right;
-    margin-right: 30px;
+    margin-right: 40px;
+    background-color: var(--v);
+    padding: 8px 12px 8px 12px;
+    border-radius: 20px;
 }
 
 .pres__cercle{
