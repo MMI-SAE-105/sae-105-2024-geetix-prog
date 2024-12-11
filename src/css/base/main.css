@@ -3,3 +3,15 @@ body{
     color: var(--footer);
     background-color: var(--b);
 }
+
+h3{
+    font-family: var(--header3);
+    color: var(--v);
+    font-size: var(--h3);
+}
+
+h2{
+    font-family: var(--header2);
+    color: var(--);
+    font-size: var(--h1-h2);
+}

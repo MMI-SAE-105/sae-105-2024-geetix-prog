@@ -4,8 +4,8 @@
   position: fixed;
   inset: 0;
   z-index: 1;
-  background-color: var(--b);
-  color: var(--b);
+  background-color: var(--j);
+  color: var(--j);
   flex-direction: column;
   justify-content: space-between;
   padding: var(--space);
@@ -25,10 +25,36 @@
 }
 
 .menu__link {
-  color: var(--v);
   text-decoration: none;
   font-size: var(--h3);
   display: block;
+  color: var(--v);
+  font-family: var(--header3);
+  width: 70%;
+}
+
+.menu__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__title{
+  inset: 0;
+  z-index: 1;
+  color: var(--v);
+  text-decoration: none;
+  font-size: var(--h1-h2);
+  font-family: var(--header1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.menu__item{
+  background-color: var(--b);
+  margin: var(--space);
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .menu-btn__bar,
