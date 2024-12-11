@@ -1,0 +1,9 @@
+h1{
+    color: var(--v);
+    font-family: var(--header1);
+    font-size: var(--h1-h2);
+}
+
+.topnav a{
+    text-decoration: none;;
+}

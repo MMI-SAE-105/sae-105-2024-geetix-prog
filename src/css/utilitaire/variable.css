@@ -1,0 +1,26 @@
+/* Collection 1 */
+:root {
+    /* Mode 1 */
+    /* color */
+    --b: #f1e8d9;
+    --bc: #9dd1e9;
+    --j: #ffd1a6;
+    --mc: #ffb866;
+    --v: #e1748c;
+    --footer: #391700;
+    --texte: #b78bc0;
+    /* number */
+    --number: 0.5625rem;
+    --b3: 0.75rem;
+    --b1-b2: 0.875rem;
+    --h3: 1.25rem;
+    --h1-h2: 1.6875rem;
+    /* string */
+    --body1: Comfortaa;
+    --body2: Comfortaa;
+    --body3: Comfortaa;
+    --header1: Coiny;
+    --header2: Aclonica;
+    --header3: Aclonica;
+    --small-text: Comfortaa;
+  }
