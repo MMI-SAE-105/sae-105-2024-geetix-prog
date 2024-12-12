@@ -7,18 +7,19 @@
 @import "utilitaire/variable.css";
 
 @import "base/main.css";
+@import "base/apropos.css";
+@import "base/presentation.css";
+@import "base/billeterie.css";
+@import "base/contact.css";
+@import "base/coordonees.css";
+@import "base/film.css";
+@import "base/programme.css";
+@import "base/localisation.css";
+@import "base/partenaires.css";
+@import "base/reseaux.css";
 
 @import "layout/header.css";
 @import "layout/footer.css";
 
 @import "composant/menu.css";
-@import "composant/presentation.css";
-@import "composant/programme.css";
-@import "composant/localisation.css";
-@import "composant/billeterie.css";
 @import "composant/button.css";
-@import "composant/partenaires.css";
-@import "composant/contact.css";
-@import "composant/coordonnées.css";
-@import "composant/reseaux.css";
-@import "composant/apropos.css";
