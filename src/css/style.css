@@ -9,6 +9,7 @@
 @import "base/main.css";
 
 @import "layout/header.css";
+@import "layout/footer.css";
 
 @import "composant/menu.css";
 @import "composant/presentation.css";

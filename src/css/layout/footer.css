@@ -1,0 +1,31 @@
+.footer{
+    position: relative;
+    margin-top: -50px;
+    height: 275px;
+    background-color: var(--footer);
+    z-index: 2;
+}
+
+.footer__title {
+    color: var(--j);
+    font-family: var(--header1);
+    font-size: var(--h1-h2);
+    padding: 0px;
+    text-shadow: 0px 0px 15px var(--b);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.reseaux{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.footer__para{
+    text-align: center;
+    color: var(--b);
+    font-size: var(--s);
+    margin-top: 70px;
+}

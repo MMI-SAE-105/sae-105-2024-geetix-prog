@@ -22,11 +22,14 @@
     margin: 0 auto;
 }
 
+.texte__card{
+    padding-bottom: 10px;
+}
+
 .prog__card{
     display: inline-block;
     text-align: center;
     background-color: var(--texte);
-    margin-bottom: 100px;
     margin-right: 60px;
     margin-left: 60px;
     padding: 20px 0px;
