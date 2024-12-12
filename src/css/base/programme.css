@@ -36,6 +36,7 @@
     width: 300px;
     margin: 0 auto 100px auto;
     border-radius: 30px;
+    margin-left: 50px;
 }
 
 .title__card{
@@ -88,16 +89,3 @@
     padding: 8px 12px 8px 12px;
 }
 
-
-/* carroussel */
-.carousel{
-    display: flex;
-    gap: 16px;
-    overflow-x: scroll;
-    scroll-snap-type: center;
-}
-
-.prog__card{
-    flex:1 0 100%;
-    scroll-snap-type: center;
-}

@@ -1,0 +1,47 @@
+.carroussel{
+    display: flex;
+    gap: 0px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.card{
+    flex:1 0 70%;
+}
+
+.carroussel__controls {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 110%;
+    z-index: 5;
+}
+
+.carroussel__button {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px, solid, var(--v);
+    border-radius: 50%;
+}    
+
+.carroussel__button--prev {
+    background-color: transparent;
+    transform: scale(3);
+}
+  
+.carroussel__button--next {
+    background-color: transparent;
+    transform: scale(3);
+}
+
+.carroussel__item{
+    scroll-snap-align: center;
+}

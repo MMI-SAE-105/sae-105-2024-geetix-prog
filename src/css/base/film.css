@@ -1,0 +1,73 @@
+.film__title{
+    font-family: var(--header2);
+    font-size: var(--h1-h2);
+    margin: 80px 50px 50px 20px;
+}
+
+.film__card{
+    background-color: var(--footer);
+    margin-left: 50px;
+    width: 300px;
+    border-radius: 30px;
+}
+.first{
+    margin-left: 50px;
+}
+
+.last{
+    margin-right: 50px;
+}
+
+.card__item{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 0px;
+    border-radius: 30px 30px 0 0;
+
+}
+
+.card__title{
+    width: 275px;
+    margin-left: 20px;
+}
+
+.card__text{
+    color: var(--b);
+}
+
+.card__para{
+    color: var(--b);
+    font-family: var(--body1);
+    font-size: var(--b1-b2);
+    width: 275px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
+
+.card_autor{
+    color: var(--b);
+    font-family: var(--body2);
+    font-size: var(--b1-b2);
+    text-align: right;
+    margin-right: 20px;
+    padding-bottom: 30px;
+}
+
+.vie__chat{
+    padding-bottom: 75px;
+}
+
+.chat__potte{
+    padding-bottom: 75px;
+}
+
+.chat_au_musee{
+    padding-bottom: 75px;
+}
+
+.mon_chat_et_moi{
+    padding-bottom: 55px;
+}
