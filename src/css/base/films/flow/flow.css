@@ -1,0 +1,36 @@
+.img__flow{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.affiche__title{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+.synopsis__title{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+.para__film{
+    margin: 0px 20px 0px 30px;
+}
+.para__film{
+    padding-bottom: 20px;
+}
+
+.ba__title{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: 30px;
+}

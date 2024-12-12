@@ -6,17 +6,29 @@
 
 @import "utilitaire/variable.css";
 
+/* Base */
 @import "base/main.css";
-@import "base/apropos.css";
-@import "base/presentation.css";
-@import "base/billeterie.css";
-@import "base/contact.css";
-@import "base/coordonnees.css";
-@import "base/film.css";
-@import "base/programme.css";
-@import "base/localisation.css";
-@import "base/partenaires.css";
-@import "base/reseaux.css";
+
+/* accuil */
+@import "base/accueil/localisation.css";
+@import "base/accueil/partenaires.css";
+@import "base/accueil/programme.css";
+@import "base/accueil/presentation.css";
+@import "base/accueil/billeterie.css";
+
+/* A propos */
+@import "base/a_propos/apropos.css";
+
+/* Contact */
+@import "base/contact/contact.css";
+@import "base/contact/coordonnees.css";
+@import "base/contact/reseaux.css";
+
+/* Films */
+@import "base/films/films.css";
+@import "base/films/flow/flow.css";
+
+
 
 @import "layout/header.css";
 @import "layout/footer.css";
