@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miaullywood</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/paw.svg" />
     <link rel="stylesheet" href="src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
 
@@ -83,14 +84,22 @@
                 De Guillaume Maidatchevsky
             </p>
         </div>
-        <div class="carroussel__controls">
+        <div class="carroussel__controls film__controls">
             <button class="carroussel__button carroussel__button--prev" aria-label="Défiler vers la gauche">
                 <img src="assets/icons/left_arrow.svg" alt="fleche gauche" />
             </button>
             <button class="carroussel__button carroussel__button--next" aria-label="Défiler vers la droite">
                 <img src="assets/icons/right_arrow.svg" alt="fleche droite" />
             </button>
+        </div>  
+    </div>
+    <div class="footer footer__film">
+        <h1 class="footer__title" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" >Miaullywood</h1>
+        <div class="reseaux">
+            <img src="assets/icons/twitter.svg" alt="twitter">
+            <img src="assets/icons/facebook.svg" alt="facebook">
+            <a href="https://www.instagram.com/miaullywood/"><img src="assets/icons/instagram.svg" alt=""></a>
         </div>
-            
+        <p class="footer__para">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
     </div>
 </body>

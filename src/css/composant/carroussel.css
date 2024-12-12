@@ -18,7 +18,6 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 110%;
     z-index: 5;
 }
 
@@ -45,3 +44,4 @@
 .carroussel__item{
     scroll-snap-align: center;
 }
+

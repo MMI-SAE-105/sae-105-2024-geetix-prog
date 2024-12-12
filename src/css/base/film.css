@@ -10,6 +10,12 @@
     width: 300px;
     border-radius: 30px;
 }
+
+.carroussel__item{
+    margin-bottom: 100px;
+    
+}
+
 .first{
     margin-left: 50px;
 }
@@ -70,4 +76,12 @@
 
 .mon_chat_et_moi{
     padding-bottom: 55px;
+}
+
+.film__controls{
+    top: 110%;
+}
+
+.footer__film{
+    margin-top: 300px;
 }

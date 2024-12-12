@@ -1,11 +1,11 @@
-.coordonnées__title{
-    padding-top: 50px;
+.coordonnees__title{
+    padding-top: 100px;
     padding-bottom: 30px;
     text-align: left;
     margin-left: 30px;
 }
 
-.coordonnées__title::after{
+.coordonnees__title::after{
     content: "";
     background-color: var(--bc);
     height: 12px;
@@ -15,7 +15,7 @@
     margin: 0;
 }
 
-.coordonnées__para{
+.coordonnees__para{
     padding-bottom: 20px;
 }
 
