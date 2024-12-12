@@ -26,3 +26,7 @@ h2{
 .para{
     margin: 0px 25px;
 }
+
+a{
+    text-decoration: none;
+}

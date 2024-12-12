@@ -1,0 +1,91 @@
+.contact__title{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.contact__title::after{
+    content: "";
+    background-color: var(--bc);
+    height: 12px;
+    width: 120px;
+    display: block;
+    border-radius: 30px;
+    margin: 0;
+}
+
+.contact__para{
+    margin: 0px 40px 0px 60px;
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ele{
+    padding-top: 20px;
+}
+
+.ele label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ele input{
+    width: 300px; 
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ele textarea{
+    width: 300px; 
+    padding: 10px; 
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 150px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.para__form{
+    font-family: var(--body3);
+    color: var(--footer);
+    font-size: var(--b3);
+}
+
+.cochez{
+    display: flex;
+    gap: 40px;
+    margin: 50px 20px 0px 20px;
+    justify-content: center;
+}
+
+.para__cochez{
+    width: 200px;
+}
+
+.cochez__input{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    appearance: none;
+    border: solid 4px var(--bc);
+    border-radius: 10px;
+}
+.cochez__input:checked {
+    background-color: var(--bc);
+}
+
+.contact__btn{
+    margin: 50px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.5);
+}

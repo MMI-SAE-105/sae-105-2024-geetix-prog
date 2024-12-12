@@ -1,0 +1,28 @@
+.reseaux__title{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.reseaux__title::after{
+    content: "";
+    background-color: var(--bc);
+    height: 12px;
+    width: 200px;
+    display: block;
+    border-radius: 30px;
+    margin: 0;
+}
+
+.nosreseaux{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.img_reseaux{
+    transform: scale(1.5);
+    z-index: 3;
+}

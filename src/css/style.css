@@ -17,4 +17,7 @@
 @import "composant/localisation.css";
 @import "composant/billeterie.css";
 @import "composant/button.css";
-@import "composant/partenaires.css"
+@import "composant/partenaires.css";
+@import "composant/contact.css";
+@import "composant/coordonnées.css";
+@import "composant/reseaux.css";

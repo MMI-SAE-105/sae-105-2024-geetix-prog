@@ -1,4 +1,4 @@
-h1 {
+.header__title {
     color: var(--v);
     font-family: var(--header1);
     font-size: var(--h1-h2);
@@ -22,4 +22,11 @@ h1 {
 
 .sousheader h3{
     font-size: 15px;
+}
+
+.link__title{
+    font-family: var(--header1);
+    color: var(--v);
+    font-size: var(--h1-h2);
+    text-decoration: none;
 }

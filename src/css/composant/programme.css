@@ -94,8 +94,6 @@
     display: flex;
     gap: 16px;
     overflow-x: scroll;
-    margin-left: -24px;
-    margin-right: -24px;
     scroll-snap-type: center;
 }
 
