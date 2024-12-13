@@ -7,6 +7,7 @@
     <link rel="icon" type="image/svg+xml" href="assets/favicon/paw.svg" />
     <link rel="stylesheet" href="src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/accordeon.js"></script>
 
 </head>
 <body>
@@ -30,5 +31,75 @@
             </ul>
         </nav>
     </header>
-     
+    <img class="go_up" src="/assets/icons/up.svg" alt="Back to top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" >
+    
+    <div class="tarifs">
+        <div class="title">
+            <h2 class="info__title">Nos tarifs</h2>
+        </div>
+        <div class="sec">
+            <div class="sous_titre">
+                <p class="info__sous_titre">Billets individuels :</p>
+            </div>
+            <div class="tarifs__element">
+                <ul class="list list__info">
+                    <li class="list__item">Séances VR : 10 €</li>
+                    <li class="list__item">Accès à une séance : 8 €</li>
+                    <li class="list__item">Projections en plein air : 5 €</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sec">
+            <div class="sous_titre">
+                <p class="info__sous_titre">Pass festival :</p>
+            </div>
+            <div class="tarifs__element">
+                <ul class="list list__info">
+                    <li class="list__item">Pass 1 jour : 15 €</li>
+                    <li class="list__item">Pass complet 3 jours : 35 €</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sec">
+            <div class="sous_titre">
+                <p class="info__sous_titre">Réductions :</p>
+            </div>
+            <div class="tarifs__element">
+                <ul class="list list__info">
+                    <li class="list__item">Étudiants et moins de 18 ans : -20 % sur tous les billets</li>
+                    <li class="list__item">Gratuit pour les moins de 6 ans</li>
+                    <li class="list__item">Tarif groupe (à partir de 5 personnes) : -10 %</li>
+                    <li class="list__item">Offre spéciale : Un billet acheté pour une séance en salle = accès gratuit à une projection en plein air</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="lieux">
+        <div class="title">
+            <h2 class="info__title">Lieux</h2>
+        </div>
+        <div class="accordeon">
+            <details open>
+                <summary><p class="para__lieu">Cinéma Olympia</p></summary>
+                <div class="accordeon__text">
+                    <p class="para para__accordeon">Adresse : 12 Rue de la République, 25300 Pontarlier</p>
+                    <p class="para para__accordeon">Le lieu principal pour les projections en salle et certaines conférences.</p>
+                </div>
+            </details>
+            <details>
+                <summary><p class="para__lieu">Parc Saint-Bénigne</p></summary>
+                <div class="accordeon__text">
+                    <p class="para para__accordeon">Adresse : Avenue de la Libération, 25300 Pontarlier</p>
+                    <p class="para para__accordeon">Site des projections en plein air et du musée éphémère sur l’histoire des chats.</p>
+                </div>
+            </details>
+            <details>
+                <summary><p class="para__lieu">Espace Malraux</p></summary>
+                <div class="accordeon__text">
+                    <p class="para para__accordeon">Adresse : 23 Rue du Doubs, 25300 Pontarlier</p>
+                    <p class="para para__accordeon">Accueil des ateliers créatifs et des conférences animalières.</p>
+                </div>
+            </details>
+        </div>
 </body>

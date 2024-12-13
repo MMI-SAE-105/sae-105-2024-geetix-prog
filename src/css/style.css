@@ -28,6 +28,9 @@
 @import "base/films/films.css";
 @import "base/films/flow/flow.css";
 
+/* infos */
+@import "base/infos/info.css";
+
 
 
 @import "layout/header.css";
@@ -36,3 +39,4 @@
 @import "composant/menu.css";
 @import "composant/button.css";
 @import "composant/carroussel.css";
+@import "composant/accordéon.css";

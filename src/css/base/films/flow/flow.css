@@ -34,3 +34,33 @@
     text-align: left;
     margin-left: 30px;
 }
+
+.vid__flow{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.it__title{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.list__it{
+    margin-left: 30px;
+}
+
+.bio__title{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.para__bio{
+    margin-left: 30px;
+}

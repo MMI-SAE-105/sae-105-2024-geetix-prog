@@ -1,0 +1,29 @@
+.info__title{
+    margin-top: 75px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.info__sous_titre{
+    font-family: var(--body1);
+    font-size: var(--h3);
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+.list__info{
+    margin-left: 75px;
+    margin-right: 20px;
+}
+
+.sec{
+    margin-bottom: 50px;
+}
+
+.para__lieu{
+    margin-left: 0px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+

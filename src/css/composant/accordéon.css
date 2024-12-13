@@ -1,0 +1,65 @@
+details{
+    width: 75%;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    margin-left: 50px;
+}
+
+summary{
+    background-color: var(--j);
+    padding: 10px 20px;
+    display: flex;
+    right: 20px;
+    list-style-type: none; 
+    border-radius: 20px;
+}
+
+summary::after {
+    content: '\25B6';
+    margin-left: auto;
+    font-size: 24px;
+    transition: transform 0.5s ease, color 0.3s ease;;
+    animation: none;
+    transform-origin: center;
+    display: inline-block;
+    opacity: 25%;
+}
+
+
+details[open] summary::after {
+    content: '\25BC';
+    color: red;
+    animation: rotate 0.2s linear;
+}
+
+details:not([open]) summary::after {
+    animation: rotate_sortie 0.2s linear;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(-90deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+}
+
+@keyframes rotate_sortie{
+    from {
+        transform: rotate(90deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+}
+
+.accordeon__text{
+    margin: 20px 0px 50px 20px;
+}
+
+.para__accordeon{
+    padding-top: 20px;  
+}
