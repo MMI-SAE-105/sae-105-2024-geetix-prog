@@ -1,8 +1,6 @@
 .info__title{
-    margin-top: 75px;
-    padding-bottom: 30px;
     text-align: left;
-    margin-left: 30px;
+    margin: 75px 20px 30px 30px;
 }
 
 .info__sous_titre{
@@ -39,3 +37,4 @@
     float: right;
     margin-right: 20px;
 }
+

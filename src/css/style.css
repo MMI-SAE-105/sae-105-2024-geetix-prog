@@ -31,6 +31,8 @@
 /* infos */
 @import "base/infos/info.css";
 
+/* invite */
+@import "base/invite/invite.css";
 
 
 @import "layout/header.css";

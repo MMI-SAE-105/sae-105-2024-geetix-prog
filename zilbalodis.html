@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miaullywood</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/paw.svg" />
+    <link rel="stylesheet" href="src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/accordeon.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="assets/icons/paw.svg" alt="Miaullywood">
+        </a>
+        <h1 class="header__title"><a class="link__title" href="index.html">Miaullywood</a></h1>
+        <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list">
+                <li class="menu__title"><a class="link__title" href="index.html">Miaullywood</a></li>
+                <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                <li class="menu__item"><a class="menu__link" href="programme.html">Programme</a></li>
+                <li class="menu__item"><a class="menu__link" href="apropos.html">À propos</a></li>
+                <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+                <li class="menu__item"><a class="menu__link" href="film.html">Films</a></li>
+                <li class="menu__item"><a class="menu__link" href="infospratique.html">Infos pratiques</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img class="go_up" src="/assets/icons/up.svg" alt="Back to top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" >

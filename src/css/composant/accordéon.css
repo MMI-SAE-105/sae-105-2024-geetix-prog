@@ -61,5 +61,5 @@ details:not([open]) summary::after {
 }
 
 .para__accordeon{
-    padding-top: 20px;  
+    padding-top: 10px;  
 }

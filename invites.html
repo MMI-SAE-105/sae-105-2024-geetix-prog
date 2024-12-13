@@ -7,6 +7,7 @@
     <link rel="icon" type="image/svg+xml" href="assets/favicon/paw.svg" />
     <link rel="stylesheet" href="src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/accordeon.js"></script>
 
 </head>
 <body>
@@ -25,9 +26,99 @@
                 <li class="menu__item"><a class="menu__link" href="programme.html">Programme</a></li>
                 <li class="menu__item"><a class="menu__link" href="apropos.html">À propos</a></li>
                 <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
-                <li class="menu__item"><a class="menu__link" href="invites.html">Invités</a></li>
+                <li class="menu__item"><a class="menu__link" href="film.html">Films</a></li>
                 <li class="menu__item"><a class="menu__link" href="infospratique.html">Infos pratiques</a></li>
             </ul>
         </nav>
     </header>
     <img class="go_up" src="/assets/icons/up.svg" alt="Back to top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" >
+    <div class="real">
+        <div class="title">
+            <h2 class="info__title">Réalisateurs :</h2>
+        </div>
+        <div class="accordeon">
+            <details>
+                <summary><p class="para__lieu">Gints Zilbalodis</p></summary>
+                <div class="accordeon__text">
+                    <p class="para para__accordeon">Réalisateur de Flow, le chat qui n’avait plus peur de l’eau, un film d'animation letton acclamé pour sa narration visuelle et poétique.</p>
+                    <div class="invit__prsn">
+                        <a class="link__invit" href="zilbalodis.html">En savoir plus</a>
+                    </div>
+                </div>
+            </details>
+            <details>
+                <summary><p class="para__lieu">Mark Verkerk</p></summary>
+                <div class="accordeon__text">
+                    <p class="para para__accordeon">Documentariste néerlandais, auteur de Chats, C'est Vraiment Nous, offrant une perspective unique sur la vie des félins.</p>
+                    <div class="invit__prsn">
+                        <a class="link__invit" href="#">En savoir plus</a>
+                    </div>
+                </div>
+            </details>
+        </div>
+    </div>
+    <div class="asso">
+        <div class="title">
+            <h2 class="info__title">Associations de protection animale :</h2>
+        </div>
+        <div class="accordeon">
+            <details>
+                <summary><p class="para__lieu">Association d'Entraide et de Solidarité de la Protection Animale de Bourgogne - Franche-Comté</p></summary>
+                <div class="accordeon__text">
+                    <p class="para para__accordeon">Engagée dans la protection et la défense des animaux, intervenant notamment en cas de maltraitance.</p>
+                    <div class="invit__prsn">
+                        <a class="link__invit" href="#">En savoir plus</a>
+                    </div>
+                </div>
+            </details>
+            <details>
+                <summary><p class="para__lieu">Société pour la Défense des Animaux de Bourgogne et de Franche-Comté</p></summary>
+                <div class="accordeon__text">
+                    <p class="para para__accordeon">Active dans la protection animale, assurant des services de fourrière et de capture des animaux errants.</p>
+                    <div class="invit__prsn">
+                        <a class="link__invit" href="#">En savoir plus</a>
+                    </div>
+                </div>
+            </details>
+        </div>
+    </div>
+    <div class="per_expe">
+        <div class="title">
+            <h2 class="info__title">Personnalités et experts :</h2>
+        </div>
+        <div class="accordeon">
+            <details>
+                <summary><p class="para__lieu">Ceyda Torun</p></summary>
+                <div class="accordeon__text">
+                    <p class="para para__accordeon">Réalisatrice du documentaire Kedi, qui explore la vie des chats errants d'Istanbul et leur interaction avec les habitants.</p>
+                    <div class="invit__prsn">
+                        <a class="link__invit" href="#">En savoir plus</a>
+                    </div>
+                </div>
+            </details>
+            <details>
+                <summary><p class="para__lieu">Représentants de la SPA de Pontarlier</p></summary>
+                <div class="accordeon__text">
+                    <p class="para para__accordeon">Organisation locale dédiée à la protection des animaux, pouvant partager leur expérience et leurs actions sur le terrain.</p>
+                    <div class="invit__prsn">
+                        <a class="link__invit" href="#">En savoir plus</a>
+                    </div>
+                </div>
+            </details>
+        </div>
+    </div>
+    <div class="fin__invit">
+        <p class="para para__invit">
+            Inviter ces personnalités et associations apporterait une dimension enrichissante au festival, en combinant perspectives artistiques et engagements concrets en faveur de la cause animale.
+        </p>
+    </div>
+    <div class="footer">
+        <h1 class="footer__title" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" >Miaullywood</h1>
+        <div class="reseaux">
+            <img src="assets/icons/twitter.svg" alt="twitter">
+            <img src="assets/icons/facebook.svg" alt="facebook">
+            <a href="https://www.instagram.com/miaullywood/"><img src="assets/icons/instagram.svg" alt=""></a>
+        </div>
+        <p class="footer__para">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+    </div>
+</body>
