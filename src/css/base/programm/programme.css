@@ -1,0 +1,51 @@
+.chemin{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px 0px 20px;
+    
+}
+
+.chemin__link{
+    color: var(--v);
+    font-size: var(--h3);
+    font-family: var(--header3);
+}
+
+.programme__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--texte);
+    margin: 0 20px;
+    border-radius: 50px;
+}
+
+.programme{
+    margin-top: 75px;
+}
+
+.programme__title{
+    color: var(--b);
+}
+
+.moment{
+    margin: 75px 20px 0px 35px;
+
+}
+
+.moment__title{
+    color: var(--texte);
+    font-size: var(--h1-h2);
+}
+
+.moment__subtitle{
+    font-weight: bold;
+}
+
+.text__prog{
+    margin-bottom: 75px;
+}
+
+.day{
+    margin-bottom: 75px;
+}

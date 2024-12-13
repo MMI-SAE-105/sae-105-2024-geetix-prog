@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miaullywood</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/paw.svg" />
+    <link rel="stylesheet" href="src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="assets/icons/paw.svg" alt="Miaullywood">
+        </a>
+        <h1 class="header__title"><a class="link__title" href="index.html">Miaullywood</a></h1>
+        <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list">
+                <li class="menu__title"><a class="link__title" href="index.html">Miaullywood</a></li>
+                <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                <li class="menu__item"><a class="menu__link" href="apropos.html">À propos</a></li>
+                <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+                <li class="menu__item"><a class="menu__link" href="film.html">Films</a></li>
+                <li class="menu__item"><a class="menu__link" href="invites.html">Invités</a></li>
+                <li class="menu__item"><a class="menu__link" href="infospratique.html">Infos pratiques</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img class="go_up" src="/assets/icons/up.svg" alt="Back to top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" >
+    <div class="chemin">
+        <h3 class="chemin__link" onclick="document.querySelector('.vendredi').scrollIntoView({ behavior: 'smooth' });">27/06/25</h3>
+        <h3 class="chemin__link" onclick="document.querySelector('.samedi').scrollIntoView({ behavior: 'smooth' });">27/06/25</h3>
+        <h3 class="chemin__link" onclick="document.querySelector('.dimanche').scrollIntoView({ behavior: 'smooth' });">27/06/25</h3>
+    </div>
+    <div class="programme">
+        <div class="day vendredi">
+            <div class="programme__top">
+                <h2 class="programme__title">Vendredi 27 juin 2025</h2>
+            </div>
+            <div class="moment">
+                <h2 class="moment__title">Soirée :</h2>
+                <div class="text__prog">
+                    <p class="moment__subtitle">18h00 – Accueil des festivaliers & installation</p>
+                    <p class="moment__para">Venez récupérer vos badges et découvrir le lieu du festival en avant-première. Profitez de cette soirée pour explorer les stands, vous installer confortablement et vous familiariser avec l'ambiance de « Miaullywood ».</p>
+                </div>
+                <div class="text__prog">
+                    <p class="moment__subtitle">20h30 – Projection d'ouverture en plein air : Film culte sur les chats</p>
+                    <p class="moment__para">Plongez dans l'univers du festival avec une projection spéciale en plein air d’un film culte mettant en vedette des chats. Blottissez-vous dans les coussins en forme de pattes de chat et profitez de ce moment sous les étoiles.</p>
+                </div>
+            </div>
+        </div>
+        <div class="day samedi">
+            <div class="programme__top">
+                <h2 class="programme__title">Samedi 28 juin 2025</h2>
+            </div>
+            <div class="moment">
+                <h2 class="moment__title">Matin :</h2>
+                <div class="text__prog">
+                    <p class="moment__subtitle">10h00 – Ouverture officielle du festival</p>
+                    <p class="moment__para">Célébrez le lancement du Festival Miaullywood lors de la cérémonie d’ouverture officielle. Un moment d’introduction pour découvrir les valeurs et les objectifs de cet événement unique en son genre, alliant cinéma et amour des chats.</p>
+                </div>
+                <div class="text__prog">
+                    <p class="moment__subtitle">11h30 – Conférence : « La maltraitance animale, comment agir ? »</p>
+                    <p class="moment__para">Prenez une pause pour déguster des plats éthiques dans une ambiance chaleureuse, et profitez-en pour visiter les stands des associations de protection animale. Un moment idéal pour allier gastronomie et sensibilisation à la cause animale.</p>
+                </div>
+            </div>
+            <div class="moment">
+                <h2 class="moment__title">Midi :</h2>
+                <div class="text__prog">
+                    <p class="moment__subtitle">12h30 – Pause déjeuner & visite des stands</p>
+                    <p class="moment__para">Célébrez le lancement du Festival Miaullywood lors de la cérémonie d’ouverture officielle. Un moment d’introduction pour découvrir les valeurs et les objectifs de cet événement unique en son genre, alliant cinéma et amour des chats.</p>
+                </div>
+                <div class="text__prog">
+                    <p class="moment__subtitle">13h00 – Animations sur le thème des chats</p>
+                    <p class="moment__para">Participez à des animations amusantes pour toute la famille, comme un concours de déguisement sur le thème des chats pour les enfants, et capturez des souvenirs dans notre coin photo thématique.</p>
+                </div>
+            </div>
+            <div class="moment">
+                <h2 class="moment__title">après-midi :</h2>
+                <div class="text__prog">
+                    <p class="moment__subtitle">14h00 – Projection en plein air</p>
+                    <p class="moment__para">Installez-vous pour une session de courts-métrages émouvants axés sur la cause animale, projetés en plein air. Un moment d’émotion et de réflexion dans une atmosphère détendue.</p>
+                </div>
+                <div class="text__prog">
+                    <p class="moment__subtitle">16h30 – Conférence technologique : « La réalité virtuelle au service du cinéma et de la cause animale »</p>
+                    <p class="moment__para">Découvrez comment la technologie peut servir à la fois le cinéma et la cause animale, avec une présentation sur l'usage de la réalité virtuelle. Des démonstrations interactives vous permettront d'expérimenter ces technologies innovantes.</p>
+                </div>
+            </div>
+            <div class="moment">
+                <h2 class="moment__title">Soirée :</h2>
+                <div class="text__prog">
+                    <p class="moment__subtitle">18h00 – Projection en salle : Film d’un réalisateur émergent</p>
+                    <p class="moment__para">Assistez à la projection d'un film réalisé par un talent émergent. Après la séance, échangez avec le réalisateur lors d’un débat pour en savoir plus sur son processus créatif et ses inspirations.</p>
+                </div>
+                <div class="text__prog">
+                    <p class="moment__subtitle">22h00 – Projection nocturne en plein air</p>
+                    <p class="moment__para">Clôturez cette première journée avec une projection nocturne d'un film culte dédié aux animaux. Installez-vous confortablement avec une couverture et savourez une boisson chaude pour une soirée magique sous les étoiles.</p>
+                </div>
+            </div>
+        </div>
+        <div class="day dimanche">
+            <div class="programme__top">
+                <h2 class="programme__title">Dimanche 29 juin 2025</h2>
+            </div>
+            <div class="moment">
+                <h2 class="moment__title">Matin :</h2>
+                <div class="text__prog">
+                    <p class="moment__subtitle">09h30 – Séance de méditation et éveil corporel</p>
+                    <p class="moment__para">Commencez la journée en douceur avec une séance de méditation et de yoga en plein air, pour vous relaxer tout en vous inspirant de la sérénité des chats.</p>
+                </div>
+                <div class="text__prog">
+                    <p class="moment__subtitle">11h30 – Conférence : « L’histoire des chats à travers les civilisations »</p>
+                    <p class="moment__para">Explorez l’histoire fascinante des chats et leur importance dans différentes cultures à travers les siècles. Cette visite guidée d’un musée en plein air vous fera voyager à travers le temps.</p>
+                </div>
+            </div>
+            <div class="moment">
+                <h2 class="moment__title">Midi :</h2>
+                <div class="text__prog">
+                    <p class="moment__subtitle">12h30 – Déjeuner en famille & visite des stands</p>
+                    <p class="moment__para">Partagez un repas convivial avec votre famille, tout en continuant à découvrir les stands animaliers et associatifs présents au festival. Un moment de partage et de sensibilisation pour petits et grands.</p>
+                </div>
+                <div class="text__prog">
+                    <p class="moment__subtitle">13h00 – Quiz sur la cause animale</p>
+                    <p class="moment__para">Testez vos connaissances avec notre quiz interactif sur la protection des animaux et la cause féline. Gagnez des prix tout en apprenant davantage sur les chats et leur bien-être.</p>
+                </div>
+            </div>
+            <div class="moment">
+                <h2 class="moment__title">après-midi :</h2>
+                <div class="text__prog">
+                    <p class="moment__subtitle">14h00 – Projection en salle : Courts-métrages sur la cause animale</p>
+                    <p class="moment__para">Visionnez une sélection de courts-métrages engagés mettant en avant la cause animale et réalisés par des cinéastes émergents. Un moment pour découvrir de nouvelles voix du cinéma.</p>
+                </div>
+                <div class="text__prog">
+                    <p class="moment__subtitle">16h30 – Table ronde : « Cinéma, technologie et bien-être animal »</p>
+                    <p class="moment__para">Participez à une table ronde animée par des experts du cinéma et de la technologie, pour explorer comment ces médias peuvent promouvoir la protection animale et le bien-être des chats.</p>
+                </div>
+            </div>
+            <div class="moment">
+                <h2 class="moment__title">Soirée :</h2>
+                <div class="text__prog">
+                    <p class="moment__subtitle">20h00 – Soirée de clôture & spectacle lumineux</p>
+                    <p class="moment__para">Participez à la soirée de clôture avec une dernière projection en plein air, accompagnée d’un spectacle de lumière. Un moment festif et chaleureux pour conclure ces deux jours riches en émotions.</p>
+                </div>
+                <div class="text__prog">
+                    <p class="moment__subtitle">20h00 – Soirée de clôture & spectacle lumineux</p>
+                    <p class="moment__para">Participez à la soirée de clôture avec une dernière projection en plein air, accompagnée d’un spectacle de lumière. Un moment festif et chaleureux pour conclure ces deux jours riches en émotions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1 class="footer__title" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" >Miaullywood</h1>
+        <div class="reseaux">
+            <img src="assets/icons/twitter.svg" alt="twitter">
+            <img src="assets/icons/facebook.svg" alt="facebook">
+            <a href="https://www.instagram.com/miaullywood/"><img src="assets/icons/instagram.svg" alt=""></a>
+        </div>
+        <p class="footer__para">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+    </div>
+</body>

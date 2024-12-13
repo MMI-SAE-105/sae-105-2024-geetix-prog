@@ -35,6 +35,9 @@
 @import "base/invite/invite.css";
 @import "base/invite/zilbalodis/zilbalodis.css";
 
+/* prog */
+@import "base/programm/programme.css";
+
 
 @import "layout/header.css";
 @import "layout/footer.css";
