@@ -30,7 +30,6 @@ const carroussel = document.querySelector('.carroussel');
 const prevButton = document.querySelector('.carroussel__button--prev');
 const nextButton = document.querySelector('.carroussel__button--next');
 const premierItem = document.querySelector(".carroussel__item");
-
 const scrollAmount = premierItem.clientWidth;
 
 

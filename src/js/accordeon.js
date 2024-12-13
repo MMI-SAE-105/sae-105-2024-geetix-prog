@@ -1,16 +1,17 @@
-const accordeon = document.querySelector(".accordeon");
-const d_element = accordeon.querySelectorAll("details");
+const accordions = document.querySelectorAll(".accordeon");
 
-d_element.forEach((detail) => {
-    detail.addEventListener("toggle", () => {
-      
-        if (detail.open) {
-            d_element.forEach((ele) => {
-                if (ele !== detail) {
-        
-                    ele.removeAttribute("open");
-                }
-            });
-        }
+accordions.forEach((accordeon) => {
+    const d_elements = accordeon.querySelectorAll("details");
+
+    d_elements.forEach((detail) => {
+        detail.addEventListener("toggle", () => {
+            if (detail.open) {
+                d_elements.forEach((ele) => {
+                    if (ele !== detail) {
+                        ele.removeAttribute("open");
+                    }
+                });
+            }
+        });
     });
 });

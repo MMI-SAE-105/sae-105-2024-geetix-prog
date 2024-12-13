@@ -30,3 +30,12 @@
 .heb{
     margin-top: 100px;
 }
+
+.para__info{
+    margin: 60px 30px 35px 30px;
+}
+
+.info__btn{
+    float: right;
+    margin-right: 20px;
+}
