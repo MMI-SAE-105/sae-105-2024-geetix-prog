@@ -33,6 +33,7 @@
 
 /* invite */
 @import "base/invite/invite.css";
+@import "base/invite/zilbalodis/zilbalodis.css";
 
 
 @import "layout/header.css";
