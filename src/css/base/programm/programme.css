@@ -49,3 +49,8 @@
 .day{
     margin-bottom: 75px;
 }
+
+.bouton__pdf{
+    display: flex;
+    justify-content: center;
+}
